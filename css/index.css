@@ -1,0 +1,55 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT  */
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/Quicksand-Medium.ttf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+/* NAVBAR */
+
+.navbar{
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;      
+}
+.container-fluid {
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    height: 100px;
+    padding-left: 30px; 
+     
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+
+/* FOOTER */
+
+/* MEDIA QUERY - MOBILE */
+
+@media (max-width : 768px){
+    /* header */
+   
+    header .container{
+        width: 100px;
+        height: 90px;
+        margin: 5px;
+        margin-top: 15px;
+    }
+
+
+
+}
