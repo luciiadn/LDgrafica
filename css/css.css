@@ -27,23 +27,34 @@
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
     height: 100px;
     padding-left: 30px; 
+    text-decoration: none;
      
 }
-.nav-link {
-    color: rgb(255, 255, 255);
-    font-family: Quicksand;
-    font-size: 25px;
+a:visited {
+  color: rgb(255, 255, 255);
+}
+.nav-item{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  align-items: center;
+  letter-spacing: 1px;
+  
+  
 }
 
 
 /* FOOTER */
 
 .footer-distributed{
-  background: #444;
+  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
-  font: bold 16px sans-serif;
+  font-family: Quicksand;
+  font-size: 16px;
   text-align: left;
   padding: 50px 60px 40px;
   overflow: hidden;
@@ -52,32 +63,28 @@
 section {
   width: 100%;
   display: inline-block;
-  background: #ccc;
-  height: 60vh;
+  background: rgb(255, 255, 255)S;
+  height: 100px;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  text-decoration: underline;
+  
 }
-
-
-/* Footer left */
 
 .footer-distributed .footer-left{
   float: left;
 }
 
 .footer-distributed h3{
-  color:  rg;
-  font-family: Quicksand;
-  font-size: 36px;
+  color:  rgb(255, 255, 255);
+  text-shadow:2px 2px rgb(140, 140, 140);
+  font-family: bebas;
+  font-size: 50px;
   margin: 0 0 10px;
 }
 
-/* Footer links */
-
 .footer-distributed .footer-links{
-  color:  #ffffff;
+  color:  rgb(255, 255, 255);
   margin: 0 0 10px;
   padding: 0;
 }
@@ -89,15 +96,6 @@ section {
   color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
-  color:  #8f9296;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
-}
-
-/* Footer social icons */
-
 .footer-distributed .footer-icons{
   margin-top: 40px;
 }
@@ -107,19 +105,16 @@ section {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color:  #33383b;
-  border-radius: 2px;
-
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-
+  
   margin-right: 3px;
   margin-bottom: 5px;
 }
+.footer-distributed .footer-icons .facebook {
+    
+    width: 35px;
+    height: 35px;
 
-/* Footer Right */
+}
 
 .footer-distributed .footer-right{
   float: right;
@@ -129,10 +124,8 @@ section {
   display: inline-block;
   vertical-align: top;
   margin: 15px 42px 0 0;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
-
-/* The contact form */
 
 .footer-distributed form{
   display: inline-block;
@@ -143,7 +136,7 @@ section {
   display: block;
   border-radius: 3px;
   box-sizing: border-box;
-  background-color:  #1f2022;
+  background-color:  rgba(0, 0, 0, 0.12);
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
   border: none;
   resize: none;
@@ -151,18 +144,18 @@ section {
   font: inherit;
   font-size: 14px;
   font-weight: normal;
-  color:  #d1d2d2;
+  color:  rgb(255, 255, 255);
 
   width: 400px;
   padding: 18px;
 }
 
 .footer-distributed ::-webkit-input-placeholder {
-  color:  #5c666b;
+  color:  rgb(140, 140, 140);
 }
 
 .footer-distributed ::-moz-placeholder {
-  color:  #5c666b;
+  color:  rgb(140, 140, 140);
   opacity: 1;
 }
 
@@ -191,58 +184,10 @@ section {
   float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 1000px) {
-
-  .footer-distributed {
-    font: bold 14px sans-serif;
-  }
-
-  .footer-distributed .footer-company-name{
-    font-size: 12px;
-  }
-
-  .footer-distributed form input,
-  .footer-distributed form textarea{
-    width: 250px;
-  }
-
-  .footer-distributed form button{
-    padding: 10px 35px;
-  }
-
-}
 
 @media (max-width: 800px) {
 
-  .footer-distributed{
-    padding: 30px;
-  }
-
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-right{
-    float: none;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-
-  .footer-distributed .footer-left{
-    margin-bottom: 40px;
-  }
-
-  .footer-distributed form{
-    margin-top: 30px;
-  }
-
-  .footer-distributed form{
-    display: block;
-  }
-
-  .footer-distributed form button{
-    float: none;
-  }
-}
+  
 /* MEDIA QUERY - MOBILE */
 
 @media (max-width : 768px){
@@ -256,7 +201,54 @@ section {
     }
 }
 
+@media (max-width: 1000px) {
+
+    .footer-distributed {
+      font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name{
+      font-size: 12px;
+    }
+    .footer-distributed form input,
+    .footer-distributed form textarea{
+      width: 250px;
+    }
+    .footer-distributed form button{
+      padding: 10px 35px;
+    }
+
+    .footer-distributed{
+        padding: 30px;
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left{
+        margin-bottom: 40px;
+    }
+    .footer-distributed form{
+        margin-top: 30px;
+    }
+    .footer-distributed form{
+        display: block;
+    }
+    .footer-distributed form button{
+        float: none;
+    }
+    }
+    .atencion{
+        max-width: 200px;
+        display: block;
+        margin: 0px auto;
+    }   
+}
+
 /* INDEX */
+
 
 .hero{
     font-size: 50px;
@@ -290,7 +282,33 @@ section {
     width: 100%;
     height: auto;
     padding: 80px;
-    margin-top: 80px; 
+    margin-bottom: 50px; 
+}
+
+/* CONOCENOS */
+
+.img{
+  background-color: rgb(255,255,255);
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 40px; 
+  
+}
+.service{
+  margin: 250px 30px 250px 30px;
+  font-size: 15px;
+  font-family: Quicksand;
+  text-align: center;
+  color: rgb(51, 47, 44);
+}
+h3{
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Bebas;
+  text-align: center;
+  padding: 10px;
+  color: rgb(223, 165, 164);
+  text-shadow:2px 2px rgb(140, 140, 140);
 }
 
 
