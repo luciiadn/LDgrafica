@@ -291,7 +291,11 @@ section {
 }
 
 /* CONOCENOS */
-
+.body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100v;
+}
 .img{
   background-color: rgb(255,255,255);
   background-position: center;
@@ -470,4 +474,33 @@ p{
   color: rgb(51, 47, 44); 
 } 
 
+
+/* TIENDA  */
+
+
+.title{
+  text-align: center;
+  font-size: 4rem;
+  font-family: Bebas;
+  text-align: center;
+  color: rgb(223, 165, 164);
+  text-shadow:2px 2px rgb(140, 140, 140);
+}
+.card-img-top {
+  height: auto;
+  width: 200px;
+}
+.card {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  border-radius: 20px;
+  
+}
+.card-group{
+  height: 300px;
+  gap: 8px;
+}
 
