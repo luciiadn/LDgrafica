@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  background-color: rgb(255, 255, 255);
+}
 
 /* FONT  */
 
@@ -284,9 +287,9 @@ section {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 80px;
+    width: auto;
+    height: 150px;
+    padding: 0px;
     margin-bottom: 50px; 
 }
 
@@ -504,3 +507,34 @@ p{
   gap: 8px;
 }
 
+/* UNITE */
+
+.pag-unite{
+  background-color: rgb(200, 200, 200);
+  background-image: url(../imagenes/backgroundpng.png);
+  background-repeat: repeat;
+}
+.product_form{
+  font-family: Quicksand;
+  color: rgb(51, 47, 44);
+  border-radius: 10px;
+  background-color:  rgb(255,255,255);
+  box-shadow: 7px 6px 13px -2px rgba(0,0,0,0.73);
+  padding: 12px;
+
+}
+.contact_formulario{ 
+  display: flex;
+  justify-content:center ;
+  text-align: center;
+  font-family: Quicksand;
+  width: auto; 
+  height: 750px;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: rgb(255, 255, 255); 
+  box-shadow: 7px 6px 13px -2px rgba(0,0,0,0.73);
+ 
+} 
