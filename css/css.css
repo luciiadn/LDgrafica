@@ -463,19 +463,7 @@ p{
   height: auto;
   width: 200px;
 }
-.card {
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 20px;
-  border-radius: 20px;
-  
-}
-.card-group{
-  height: 300px;
-  gap: 8px;
-}
 
 /* UNITE */
 
