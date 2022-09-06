@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="../index.html">
                       <img src="../imagenes/logopng.png" alt="" width="90" height="80">
                     </a>
                   </div>
@@ -28,18 +28,17 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">
-                          <a href=""></a>Clientes</a></li>
+                          <a href="../pages/clientes.html"></a>Clientes</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"></a>
-                      <a href="../pages/conocenos.html"></a>Vinilos</a>
+                    <a class="nav-link" href="../pages/vinilos.html">Vinilos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Tienda</a>
+                    <a class="nav-link" href="../pages/tienda.html">Tienda</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Unite</a>
+                    <a class="nav-link" href="../pages/unite.html">Unite</a>
                   </li>
                 </ul>
               </div>
@@ -77,63 +76,61 @@
             </div>
         </div>
     </div>
-
-    <section>
-        <div class="product_form">
-            <div class="formulario">      
-              <h4>compra</h4>
-            </div>
-            <form action="link de accion del formulario" method="get" enctype="multipart/form-data">     
+    <div >      
+      <h5 >Compra</h5>
+        <div class="contact_formulario">
+          <form action="link de accion del formulario" method="get" enctype="multipart/form-data">     
+            <p>
+                <label for="producto" class="seleccionar__producto">seleccionar producto
+                  <span class="obligatorio">*</span>
+                    <select name="" id=""> 
+                        <option value=""><selected disabled> elige un producto</option>
+                        <option value="">Vinilo de corte</option>
+                        <option value="">Vinilo impreso</option>
+                        <option value="">vinilo esmerilado</option>
+                        <option value="">vinilo esmerilado impreso</option>
+                        <option value="">vinilo puntillado impreso</option>
+                        <option value="">vinilo terminacion mate</option>                 
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="cantidad" class="cantidad">cantidad
+                  <span class="obligatorio">*</span>
+                </label>
+                  <input type="cantidad" name="cantidad" required="obligatorio" placeholder="Cantidad">
+            </p>
+            <p>
+                <label for="metros" class="metros">Cantidad en metros
+                </label>
+                  <input type="url" name="metros" placeholder="Metros">
+            </p>
+            <p>
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                  <input type="tel" name="introducir_telefono" placeholder="Escribe tu teléfono">
+            </p>               
+            <p>
+                <label for="email" class="colocar_email">Email
+                </label>
+                  <input type="tel" name="introducir_email" placeholder="Email">                   
+            </p>
+            <p>
                 <p>
-                    <label for="producto" class="seleccionar__producto">seleccionar producto
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
                       <span class="obligatorio">*</span>
-                        <select name="" id=""> 
-                            <option value=""><selected disabled> elige un producto</option>
-                            <option value="">Vinilo de corte</option>
-                            <option value="">Vinilo impreso</option>
-                            <option value="">vinilo esmerilado</option>
-                            <option value="">vinilo esmerilado impreso</option>
-                            <option value="">vinilo puntillado impreso</option>
-                            <option value="">vinilo terminacion mate</option>                 
-                        </select>
-                    </label>
-                </p>
-                <p>
-                    <label for="cantidad" class="cantidad">cantidad
-                      <span class="obligatorio">*</span>
-                    </label>
-                      <input type="cantidad" name="cantidad" required="obligatorio" placeholder="Cantidad">
-                </p>
-                <p>
-                    <label for="metros" class="metros">Cantidad en metros
-                    </label>
-                      <input type="url" name="metros" placeholder="Metros">
-                </p>
-                <p>
-                    <label for="telefone" class="colocar_telefono">Teléfono
-                    </label>
-                      <input type="tel" name="introducir_telefono" placeholder="Escribe tu teléfono">
-                </p>               
-                <p>
-                    <label for="email" class="colocar_email">Email
-                    </label>
-                      <input type="tel" name="introducir_email" placeholder="Email">                   
-                </p>
-                <p>
-                    <p>
-                        <label for="mensaje" class="colocar_mensaje">Mensaje
-                          <span class="obligatorio">*</span>
-                        </label>                     
-                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                    </p>        
-                </p>
-                    <button type="submit" name="enviar_formulario" id="enviar"><p>Solicitar presupuesto</p></button>
-                <p class="aviso">
-                    <span class="obligatorio"> * </span>los campos son obligatorios.
-                </p>          
-           </form>   
-        </div>
-    </section>
+                    </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>        
+            </p>
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Solicitar presupuesto</p></button>
+            <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>          
+       </form>   
+        </div> 
+    </div>  
+  </div>  
     <footer class="footer-distributed">
         <div class="footer-left">
 
