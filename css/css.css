@@ -4,9 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-  background-color: rgb(255, 255, 255);
-}
+
 
 /* FONT  */
 
@@ -44,8 +42,7 @@ a:visited {
   font-size: 25px;
   align-items: center;
   letter-spacing: 1px;
-  
-  
+
 }
 
 
@@ -496,4 +493,7 @@ h5{
   text-shadow: 2px 2px rgb(120, 120, 120);
   margin: 25px;
 }
+
+
+
 
