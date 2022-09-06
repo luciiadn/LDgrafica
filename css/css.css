@@ -76,7 +76,17 @@ a:visited {
     }
     
 }
-
+@media (max-width : 380px){
+  .atencion{
+    background-image: url(../imagenes/WEB.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 50%;
+    justify-content: center;
+    padding: 10px;
+    
+}
+}
     
 
 /* INDEX */
@@ -285,9 +295,28 @@ p{
 }
 .card-img-top {
   height: auto;
-  width: 200px;
+  width: 150px;
+  align-self: center;
 }
-
+.card-img-top:hover {
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+  }
+.card-text{
+  font-family: Quicksand;
+  font-size: 20px;
+  text-align: center;
+}
+.btn btn-outline-secondary{
+  text-align: center;
+}
+.card-footer{
+  background-color: rgb(255,255,255);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 20px;
+  padding: 0px;
+}
 
 /* UNITE */
 
