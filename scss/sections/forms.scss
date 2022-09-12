@@ -1,0 +1,61 @@
+.contact_formulario{
+    background-color: $tertiary-color;
+    box-shadow: $box-shadow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+input{ 
+    width: 300px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: $primary-color; 
+    padding: 5px;
+}
+  
+textarea{
+    font-family: Quicksand;
+    width: 300px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: $primary-color;  
+    padding-left: 5px; 
+}
+label{
+    display: block; 
+    float: center;  
+  
+} 
+.btn btn-outline-secondary{
+    text-align: center;
+    a:active{
+        color: $active-color;
+    }
+}
+.card h-100{
+    margin-bottom: 15px;
+}
+
+.pag-unite{
+    background-color: rgb(200, 200, 200);
+    background-image: url(../imagenes/backgroundpng.png);
+    background-repeat: repeat;
+  }
+
+  
+  
+  
+
+
+
+
+
+  
+
+  
+  

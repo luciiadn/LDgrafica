@@ -4,45 +4,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="icon" href="../imagenes/favicon.png">
     <title>Unite</title>
 </head>
 <body class="pag-unite">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <div class="container">
-                    <a class="navbar-brand" href="../index.html">
-                      <img src="../imagenes/logopng.png" alt="" width="90" height="80">
-                    </a>
-                  </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <a href="../pages/conocenos.html">Conocenos</a> 
-                    </a>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/clientes.html">clientes</a>
-                    </li>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/vinilos.html">Vinilos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/unite.html">Unite</a>
-                  </li>
-                </ul>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../imagenes/logopng.png" alt="Logo" width="80" height="74" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/conocenos.html">Conocenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/vinilos.html">Vinilos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/unite.html">Unite</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   </header>
     <div >
         <div >      
           <h5 >Formulario de contacto</h5>
@@ -82,7 +76,7 @@
                       </label>                     
                       <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
                   </p>                    
-                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                  <button type="button" class="btn btn-outline-secondary">Enviar</button>
                   <p class="aviso">
                       <span class="obligatorio"> * </span>los campos son obligatorios.
                   </p>          

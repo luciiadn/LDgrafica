@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: rgb(223, 165, 164);
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+        .collapse navbar-collapse{
+        background-color: rgb(223, 165, 164) ;
+        height: 150px;
+        }
+        .navbar-brand{
+        margin-left: 15px;
+        }
+        .nav-item{
+        font-size: 19px;
+        color: white;
+        font-family: Quicksand;
+            a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+            }
+        }
+}
+

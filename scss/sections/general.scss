@@ -1,0 +1,35 @@
+.atencion{
+    background-image: url(/imagenes/WEB.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100v;
+}
+.img{
+    background-color: $tertiary-color;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 20px; 
+}
+.service{
+    background-color: $tertiary-color;
+    width: 95%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+}
+
+#servicios {
+    text-align: center;
+    
+}
+
+  
+  
