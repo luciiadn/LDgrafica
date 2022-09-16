@@ -1,10 +1,13 @@
-.container-fluid{
-    background-color: rgb(223, 165, 164);
-    height: 100px;
-    margin: 0px;
-    padding: 0px;
+
+    .colorgb {
+        background-color: $primary-color;
+    }
+    .container-fluid {
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+
         .collapse navbar-collapse{
-        background-color: rgb(223, 165, 164) ;
         height: 150px;
         }
         .navbar-brand{
@@ -17,6 +20,8 @@
             a:hover {
             background-color: rgba(0, 0, 0, 0.3);
             }
-        }
-}
+        }   
+    
+    }
+      
 

@@ -1,9 +1,10 @@
-@import '../base/colors.scss';
-@import '../partials/header.scss';
-@import '../partials/footer.scss';
-@import '../base/tipography.scss';
-@import '../components/tittle.scss';
-@import '../scss/sections/general.scss';
-@import '../scss/sections/forms.scss';
-@import '../scss/sections/cards.scss';
+@import '../scss/base/_variables';
+@import '../scss/partials/header';
+@import '../scss/partials/footer';
+@import '../scss/base/tipography';
+@import '../scss/components/tittles';
+@import '../scss/sections/general';
+@import '../scss/sections/forms';
+@import '../scss/sections/cards';
 
+    

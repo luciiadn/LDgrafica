@@ -1,10 +1,11 @@
+.colorgb {
+  background-color: #dfa5a4; }
+
 .container-fluid {
-  background-color: #dfa5a4;
   height: 100px;
   margin: 0px;
   padding: 0px; }
   .container-fluid .collapse navbar-collapse {
-    background-color: #dfa5a4;
     height: 150px; }
   .container-fluid .navbar-brand {
     margin-left: 15px; }

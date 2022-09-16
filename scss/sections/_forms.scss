@@ -31,8 +31,15 @@ label{
     float: center;  
   
 } 
-.btn btn-outline-secondary{
+.btn{
     text-align: center;
+    border-radius: 10px;
+    background-color: rgb(223, 165, 164);
+    justify-content:center 
+}
+
+.btn btn-outline-secondary{
+    @extend.btn;
     a:active{
         color: $active-color;
     }
