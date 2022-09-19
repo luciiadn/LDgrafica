@@ -1,6 +1,7 @@
 .navbar {
-    background-color: rgb(223, 164, 165);
+    color: map-get($colors: primary-color);
 }
+
 .navbar-brand {
     background-image: url(/imagenes/logopng.png);
 }
@@ -19,3 +20,4 @@
         
     }
 }
+
