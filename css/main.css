@@ -1,27 +1,27 @@
-.colorgb {
-  background-color: #dfa5a4; }
+.navbar {
+  background-color: #dfa4a5; }
+
+.navbar-brand {
+  background-image: url(/imagenes/logopng.png); }
 
 .container-fluid {
-  height: 100px;
-  margin: 0px;
-  padding: 0px; }
-  .container-fluid .collapse navbar-collapse {
-    height: 150px; }
-  .container-fluid .navbar-brand {
-    margin-left: 15px; }
-  .container-fluid .nav-item {
-    font-size: 19px;
-    color: white;
-    font-family: Quicksand; }
-    .container-fluid .nav-item a:hover {
-      background-color: rgba(0, 0, 0, 0.3); }
+  width: 100%;
+  height: 80px; }
+
+.nav-link {
+  font-family: Quicksand;
+  color: white; }
+  .nav-link:hover {
+    background-color: #000000;
+    -moz-opacity: 0.5;
+    opacity: 0.3; }
 
 footer .me-3 {
   font-family: Quicksand; }
 
-footer .btn btn-outline-light btn-rounded {
+footer .btn btn-outline-light btn-rounded, .btn footer btn-outline-secondary btn-outline-light btn-rounded {
   border-radius: 20px;
-  background-color: #332f2c; }
+  background-color: rgb gray; }
 
 @font-face {
   font-family: Quicksand;
@@ -31,61 +31,47 @@ footer .btn btn-outline-light btn-rounded {
   font-family: bebas;
   src: url(../assets/Bebas_Neue/BebasNeue-Regular.ttf); }
 
-h1 {
-  font-size: 70px;
-  font-family: Bebas;
+h1, h2, h3, h5 {
+  color: #dfa4a5;
   text-align: center;
-  padding: 50px;
-  margin: 20;
-  color: #dfa5a4;
-  text-shadow: 2px 2px #8c8c8c; }
-
-h2 {
-  color: #dfa5a4;
-  text-align: center;
-  font-size: 50px;
   font-family: Bebas;
-  text-shadow: 2px 2px #8c8c8c;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 50px; }
 
 h3 {
-  font-size: 40px;
-  font-weight: 400;
-  font-family: Bebas;
-  text-align: center;
-  padding: 10px;
-  color: #dfa5a4;
-  text-shadow: 2px 2px #8c8c8c; }
+  font-size: 40px; }
 
 h5 {
-  text-align: center;
-  font-size: 50px;
-  font-family: Bebas;
-  text-align: center;
-  color: #dfa5a4;
-  text-shadow: 2px 2px #8c8c8c;
+  font-size: 30px;
   margin: 5px; }
 
 p {
   font-family: Quicksand;
   font-size: 20px;
-  color: #332f2c;
+  color: rgb gray;
   text-align: center;
   margin: 5px;
   padding: 25px; }
 
+.hero {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .hero .hero--text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center; }
+
 .atencion {
   background-image: url(/imagenes/WEB.png);
   background-repeat: no-repeat;
-  width: 100%; }
-
-.body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100v; }
+  width: 100%;
+  margin: 10px;
+  padding: 5px; }
 
 .img {
-  background-color: white;
+  background-color: 255, 255, 255;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -95,7 +81,7 @@ p {
   padding: 20px; }
 
 .service {
-  background-color: white;
+  background-color: 255, 255, 255;
   width: 95%;
   height: auto;
   margin: 15px;
@@ -105,7 +91,7 @@ p {
   text-align: center; }
 
 .contact_formulario {
-  background-color: white;
+  background-color: 255, 255, 255;
   box-shadow: 7px 6px 13px -2px rgba(0, 0, 0, 0.73);
   margin-top: 20px;
   margin-bottom: 20px;
@@ -117,7 +103,7 @@ input {
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
-  border-color: #dfa5a4;
+  border-color: rgb 223, 164, 165;
   padding: 5px; }
 
 textarea {
@@ -127,17 +113,22 @@ textarea {
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
-  border-color: #dfa5a4;
+  border-color: rgb 223, 164, 165;
   padding-left: 5px; }
 
 label {
   display: block;
   float: center; }
 
-.btn btn-outline-secondary {
-  text-align: center; }
-  .btn btn-outline-secondary a:active {
-    color: #ed6a5e; }
+.btn, .btn btn-outline-secondary {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 9px 11px 20px 5px rgba(0, 0, 0, 0.62);
+  background-color: #dfa5a4;
+  justify-content: center; }
+
+.btn btn-outline-secondary a:active {
+  color: gray; }
 
 .card h-100 {
   margin-bottom: 15px; }

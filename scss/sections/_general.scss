@@ -1,13 +1,24 @@
+.hero{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    .hero--text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+    }
+}
+
 .atencion{
     background-image: url(/imagenes/WEB.png);
     background-repeat: no-repeat;
+
     width: 100%;
+    margin: 10px;
+    padding: 5px;
 }
-.body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100v;
-}
+
 .img{
     background-color: $tertiary-color;
     background-position: center;

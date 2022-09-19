@@ -1,40 +1,24 @@
-h1{
-    font-size: map-get($font-sz: ,font-xxl);
-    font-family: Bebas;
+h1 {
+    color: rgb(223, 164, 165);
     text-align: center;
-    padding: 50px;
-    margin: 20;
-    color: $primary-color;
-    text-shadow:$text-shadow;   
-                     
+    font-family: Bebas;
+    margin-bottom: 10px;
+    font-size: 50px;
 }
 
 h2 {
-    color: $primary-color;
-    text-align: center;
-    font-size: 50px;
-    font-family: Bebas;
-    text-shadow:$text-shadow;
-    margin-bottom: 10px;
+  @extend h1;
 }
 
 h3{
+    @extend h1;
     font-size: 40px;
-    font-weight: 400;
-    font-family: Bebas;
-    text-align: center;
-    padding: 10px;
-    color: $primary-color;
-    text-shadow:$text-shadow;
+    
 }
   
 h5{
-    text-align: center;
-    font-size: 50px;
-    font-family: Bebas;
-    text-align: center;
-    color: $primary-color;
-    text-shadow: $text-shadow;
+    @extend h1;
+    font-size: 30px;
     margin: 5px;
   }
   
