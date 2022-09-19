@@ -1,3 +1,12 @@
+@mixin textarea {
+    width: 300px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: $primary-color;   
+} 
+
 .contact_formulario{
     background-color: $tertiary-color;
     box-shadow: $box-shadow;
@@ -7,25 +16,16 @@
 }
 
 input{ 
-    width: 300px; 
-    height: 40px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: $primary-color; 
+    @include textarea( width, height, border-radius, border-style, border-width, border-color);
     padding: 5px;
 }
-  
+
+
 textarea{
-    font-family: Quicksand;
-    width: 300px; 
-    height: 150px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 2px; 
-    border-color: $primary-color;  
+    @include textarea( width, height, border-radius, border-style, border-width, border-color);
     padding-left: 5px; 
 }
+
 label{
     display: block; 
     float: center;  
