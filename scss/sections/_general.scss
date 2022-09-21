@@ -20,7 +20,7 @@
 }
 
 .img{
-    background-color: $tertiary-color;
+    background-color:  map-get($colors, “tertiary-color”);
     background-position: center;
     background-repeat: no-repeat; 
     display: flex;
@@ -30,7 +30,7 @@
     padding: 20px; 
 }
 .service{
-    background-color: $tertiary-color;
+    background-color:  map-get($colors, “tertiary-color”);
     width: 95%;
     height: auto;
     margin: 15px;

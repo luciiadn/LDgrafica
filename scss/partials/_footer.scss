@@ -4,7 +4,7 @@ footer{
       }
       .btn btn-outline-light btn-rounded{
         border-radius: 20px;
-        background-color:  $secondary-color;
+        background-color:  map-get($colors, “secondary-color”);
         
       
       }

@@ -4,25 +4,25 @@
     border-radius: 5px;  
     border-style: solid; 
     border-width: 2px; 
-    border-color: $primary-color;   
+    border-color: map-get($colors, “primary-color”);   
 } 
 
 .contact_formulario{
-    background-color: $tertiary-color;
-    box-shadow: $box-shadow;
+    background-color:  map-get($colors, “tertiary-color”);
+    box-shadow: 9px 11px 20px 5px rgba(0,0,0,0.62);
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
 }
 
 input{ 
-    @include textarea( width, height, border-radius, border-style, border-width, border-color);
+    @include textarea;
     padding: 5px;
 }
 
 
 textarea{
-    @include textarea( width, height, border-radius, border-style, border-width, border-color);
+    @include textarea;
     padding-left: 5px; 
 }
 
@@ -34,7 +34,7 @@ label{
 .btn{
     text-align: center;
     border-radius: 10px;
-    box-shadow: 9px 11px 20px 5px rgba(0,0,0,0.62);;
+    box-shadow: 9px 11px 20px 5px rgba(0,0,0,0.62);
     background-color: rgb(223, 165, 164);
     justify-content:center 
 }
@@ -42,7 +42,7 @@ label{
 .btn btn-outline-secondary{
     @extend.btn;
     a:active{
-        color: $active-color;
+        color: map-get($colors, “active-color”);
     }
 }
 .card h-100{

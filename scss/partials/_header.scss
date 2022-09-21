@@ -1,5 +1,7 @@
-.navbar {
-    color: map-get($colors: primary-color);
+
+ .navbar {
+    color:  map-get($colors, “primary-color”);
+   
 }
 
 .navbar-brand {

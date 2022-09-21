@@ -1,28 +1,3 @@
-.navbar {
-  background-color: #dfa4a5; }
-
-.navbar-brand {
-  background-image: url(/imagenes/logopng.png); }
-
-.container-fluid {
-  width: 100%;
-  height: 80px; }
-
-.nav-link {
-  font-family: Quicksand;
-  color: white; }
-  .nav-link:hover {
-    background-color: #000000;
-    -moz-opacity: 0.5;
-    opacity: 0.3; }
-
-footer .me-3 {
-  font-family: Quicksand; }
-
-footer .btn btn-outline-light btn-rounded, .btn footer btn-outline-secondary btn-outline-light btn-rounded {
-  border-radius: 20px;
-  background-color: rgb gray; }
-
 @font-face {
   font-family: Quicksand;
   src: url(../assets/Quicksand-Medium.ttf); }
@@ -48,10 +23,31 @@ h5 {
 p {
   font-family: Quicksand;
   font-size: 20px;
-  color: rgb gray;
+  color: gray;
   text-align: center;
   margin: 5px;
   padding: 25px; }
+
+.navbar-brand {
+  background-image: url(/imagenes/logopng.png); }
+
+.container-fluid {
+  width: 100%;
+  height: 80px; }
+
+.nav-link {
+  font-family: Quicksand;
+  color: white; }
+  .nav-link:hover {
+    background-color: #000000;
+    -moz-opacity: 0.5;
+    opacity: 0.3; }
+
+footer .me-3 {
+  font-family: Quicksand; }
+
+footer .btn btn-outline-light btn-rounded, .btn footer btn-outline-secondary btn-outline-light btn-rounded {
+  border-radius: 20px; }
 
 .hero {
   position: relative;
@@ -71,7 +67,6 @@ p {
   padding: 5px; }
 
 .img {
-  background-color: 255, 255, 255;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -81,7 +76,6 @@ p {
   padding: 20px; }
 
 .service {
-  background-color: 255, 255, 255;
   width: 95%;
   height: auto;
   margin: 15px;
@@ -91,8 +85,7 @@ p {
   text-align: center; }
 
 .contact_formulario {
-  background-color: 255, 255, 255;
-  box-shadow: 7px 6px 13px -2px rgba(0, 0, 0, 0.73);
+  box-shadow: 9px 11px 20px 5px rgba(0, 0, 0, 0.62);
   margin-top: 20px;
   margin-bottom: 20px;
   justify-content: center; }
@@ -103,17 +96,14 @@ input {
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
-  border-color: rgb 223, 164, 165;
   padding: 5px; }
 
 textarea {
-  font-family: Quicksand;
   width: 300px;
-  height: 150px;
+  height: 40px;
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
-  border-color: rgb 223, 164, 165;
   padding-left: 5px; }
 
 label {
@@ -126,9 +116,6 @@ label {
   box-shadow: 9px 11px 20px 5px rgba(0, 0, 0, 0.62);
   background-color: #dfa5a4;
   justify-content: center; }
-
-.btn btn-outline-secondary a:active {
-  color: gray; }
 
 .card h-100 {
   margin-bottom: 15px; }
