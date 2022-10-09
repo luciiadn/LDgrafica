@@ -11,10 +11,10 @@
     
 }
 
-  .navbar {
+.navbar {
     background-color: transparent !important;
     .navbar-brand{
-      margin-left: 50px;
+      margin-left: 30px;
     }
     .nav-item{
       font-family: Lorenza;
@@ -25,9 +25,10 @@
  
   }
 
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 480px) { 
    header {
-    width: 375px;
+    width: 100%;
+    
 
 
    }

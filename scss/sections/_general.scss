@@ -58,6 +58,24 @@ body {
   transition:0.5s;
 }
 
+
+
+@media screen and (min-width: 480px) { 
+  .header {
+   width: 100%;
+   
+  }
+  .clearfix {
+    margin: 10px;
+    padding: 5px;
+    .col-md-6 {
+      width: 300px;
+      height: auto;
+      align-items: center;
+    
+    }
+  }
+}
 // CONOCENOS
 
 .conocenos {

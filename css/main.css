@@ -45,16 +45,16 @@ p {
 .navbar {
   background-color: transparent !important; }
   .navbar .navbar-brand {
-    margin-left: 50px; }
+    margin-left: 30px; }
   .navbar .nav-item {
     font-family: Lorenza;
     text-transform: capitalize;
     color: dimgray;
     font-size: 25px; }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
   header {
-    width: 375px; } }
+    width: 100%; } }
 
 .footer {
   background-color: #ee9881;
@@ -120,6 +120,17 @@ body {
   transform: perspective(800px) rotateY(25deg);
   transition: 0.5s; }
 
+@media screen and (min-width: 480px) {
+  .header {
+    width: 100%; }
+  .clearfix {
+    margin: 10px;
+    padding: 5px; }
+    .clearfix .col-md-6 {
+      width: 300px;
+      height: auto;
+      align-items: center; } }
+
 .conocenos {
   background-image: url(./imagenes/background.jpg);
   background-repeat: no-repeat; }
@@ -136,7 +147,6 @@ body {
   margin: calc(50vh - 220px) auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
-  box-sizing: border-box;
   font-family: Quicksand; }
 
 .form2 {
