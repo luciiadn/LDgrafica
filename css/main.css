@@ -127,7 +127,7 @@ body {
 .pag-unite {
   background: url(../imagenes/background.jpg); }
 
-.form {
+.form, .form2 {
   width: 340px;
   height: 440px;
   background: #eedadb;
@@ -138,6 +138,9 @@ body {
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
   font-family: Quicksand; }
+
+.form2 {
+  height: 800px; }
 
 .input {
   border: 2px;
@@ -167,7 +170,7 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
-.btn, .btn--2 {
+.btn {
   color: white;
   padding: 0.8rem;
   font-size: 14px;
@@ -176,15 +179,11 @@ img {
   font-weight: 400;
   display: block;
   width: 100%;
-  border: 1px solid dimgray;
+  border: 2px solid #ee9881;
   background: transparent;
   text-align: center; }
-  .btn:hover, .btn--2:hover {
+  .btn:hover {
     background-color: #ee9881; }
-
-.btn--2 {
-  border: 1px solid #ee9881;
-  color: #ee9881; }
 
 .cards {
   display: flex;
@@ -233,3 +232,36 @@ img {
   font-size: 40px;
   margin-top: 35px;
   text-align: center; }
+
+.main-container {
+  padding: 30px; }
+
+.instruction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card-1 {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  min-height: 100px;
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s; }
+
+.card-1:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01); }
+
+.card__title {
+  grid-row: 3/4;
+  color: white; }
+
+.card-1 {
+  background: #ee9881; }
+
+@media (max-width: 1600px) {
+  .cards {
+    justify-content: center; } }
