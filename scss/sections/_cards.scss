@@ -12,9 +12,10 @@
 }
 
 
-@media (max-width: 40rem) {
+@media screen and (max-width: 480px) {
   .row {
     width: 350px;
+    margin-left: 15px
   }
 }
 
@@ -117,23 +118,6 @@ img {
 
 
   // VINILOS
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   .main-container {
